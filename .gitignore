@@ -1,0 +1,5 @@
+*.mp4
+*.png
+*.jpg
+*.m4a
+__pycache__/

@@ -1,0 +1,12 @@
+{
+  "series": "DATOS QUE NO SABÍAS",
+  "accent": "#FFD400",
+  "seed": 3,
+  "slides": [
+    {"text": "El *pulpo* tiene tres corazones... y la sangre *azul*", "dur": 3.5},
+    {"text": "Dos bombean sangre a las *branquias*", "dur": 3.0},
+    {"text": "El tercero se *detiene* cuando nada", "dur": 3.0},
+    {"text": "Por eso prefiere *arrastrarse*: nadar le agota", "dur": 3.5}
+  ],
+  "cta": "Sígueme para un *dato nuevo* cada día"
+}
