@@ -1,0 +1,22 @@
+{"voice":"es-ES-ElviraNeural","rate":"+6%","gap":0.3,"tail":1.0,"music_seed":0,
+ "subs":{"méikap":"makeup","trénd":"trend","trénds":"trends"},
+ "sections":[
+ {"tag":"01 · el gancho","sub":"trend de maquillaje","title":["TU MES","TE MAQUILLA"],
+  "say":"¿Sabes qué maquillaje te toca según tu mes de nacimiento? Este trénd está por todas partes.",
+  "key":["mes","trénd"],"card":{"type":"chips","items":["#birthmonthmakeup","#noviembre","#diciembre","#makeuptrend","#grwm"]}},
+ {"tag":"paso 1 · busca","sub":"en el buscador","title":["BUSCA","TU MES"],"num":1,
+  "say":"Uno: busca en TikTok tu mes de nacimiento más la palabra méikap.",
+  "key":["mes","méikap"],"card":{"type":"checklist","head":"Buscar","items":[["noviembre makeup",true],["diciembre makeup",true],["enero makeup",true]]}},
+ {"tag":"paso 2 · recrea","sub":"sin hacer trampas","title":["COPIA EL","PRIMERO"],"num":2,
+  "say":"Dos: recrea el primer look que te salga, aunque no sea tu estilo. Esa es la gracia.",
+  "key":["primer","gracia"],"stamp":"SIN TRAMPAS","card":{"type":"swatches","head":"Ejemplo: noviembre","items":[["Espresso",[70,44,32]],["Canela",[170,100,60]],["Nude",[220,170,140]],["Bronce",[160,110,50]]]}},
+ {"tag":"paso 3 · graba","sub":"el formato","title":["HAZ LA","TRANSICIÓN"],"num":3,
+  "say":"Tres: grábalo como transición, de cara lavada al look final.",
+  "key":["transición","final"],"card":{"type":"checklist","head":"Tu vídeo","items":[["Cara lavada",true],["Transición",true],["Look final",true]]}},
+ {"tag":"paso 4 · el juego","sub":"más comentarios","title":["QUE LO","ADIVINEN"],"num":4,
+  "say":"Cuatro: no digas tu mes y pide que lo adivinen en comentarios. Así se disparan las interacciones.",
+  "key":["adivinen","interacciones"],"stamp":"MÁS COMENTARIOS","card":{"type":"comments","head":"Comentarios","items":["¿Eres de octubre?","Diciembre seguro","Noviembre, fijo"]}},
+ {"tag":"final · tu turno","sub":"comenta","title":["¿QUÉ MES","ERES?"],
+  "say":"¿Y tú, qué mes eres? Dímelo en comentarios, y sígueme para más trénds.",
+  "key":["mes","sígueme"],"card":{"type":"swatches","head":"Ejemplo: diciembre","items":[["Vino",[110,20,40]],["Negro",[25,22,26]],["Oro",[205,165,70]]]}}
+ ]}

@@ -1,0 +1,11 @@
+{"voice":"es-ES-AlvaroNeural","rate":"+4%","gap":0.35,"lead":0.15,"tail":1.5,"music_seed":1,"band":120,"particle_rgb":[255,200,150],
+"cards":[
+{"say":"El viernes es Black Friday, y muchas rebajas tienen trampa.","show":"El viernes es Black Friday, y muchas rebajas tienen trampa.","key":["trampa"],"bg":"bg_bags.png"},
+{"say":"Truco uno: apunta hoy el precio de lo que quieres comprar.","key":["apunta","hoy"],"bg":"bg_tag.png"},
+{"say":"Así sabrás si el descuento es real.","key":["real"],"bg":"bg_tag.png"},
+{"say":"Truco dos: por ley, el precio de referencia es el más bajo de los últimos treinta días.","show":"Truco dos: por ley, el precio de referencia es el más bajo de los últimos 30 días.","key":["30","días"],"bg":"bg_tag.png"},
+{"say":"Si te enseñan un precio inflado, no es una rebaja.","key":["inflado"],"bg":"bg_tag.png"},
+{"say":"Truco tres: desconfía de mensajes y correos con ofertas exclusivas.","key":["desconfía"],"bg":"bg_phone.png"},
+{"say":"Si es demasiado bueno para ser verdad, puede ser una estafa.","key":["estafa"],"bg":"bg_phone.png"},
+{"say":"Truco cuatro: si compras online, tienes catorce días para desistir.","show":"Truco cuatro: si compras online, tienes 14 días para desistir.","key":["14","días"],"bg":"bg_cal.png"},
+{"say":"Guárdalo y compártelo con quien va a comprar el viernes.","key":["guárdalo"],"bg":"bg_cal.png"}]}

@@ -29,6 +29,9 @@ Todo en español. Sin gastar dinero ni créditos de pago (nada de Runway, Canva,
   - Instagram: texto más largo con emojis y 8-15 hashtags; thumbnail_url.
   - YouTube: platform_options.title (<100 caracteres, con #shorts) y descripción con 3-5 hashtags.
 
+## Nota
+La tarea diaria se ejecuta DENTRO de la conversación principal (que tiene el conector PostOnce). Si un día ya hay publicaciones programadas para ese día (mira list_posts de PostOnce), elige horas que no choquen.
+
 ## 4. Cierre
 - Añadir fila a `temas_usados.md`, commit y push a la rama `claude/motivational-reel-year-end-gf64bs`.
 - Resumen final corto en español: tema, por qué, horas de publicación por red, IDs de los posts de PostOnce y enlace al vídeo (URL pública del mp4). Si alguna red da error, decirlo.
