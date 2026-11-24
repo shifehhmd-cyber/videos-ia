@@ -1,0 +1,13 @@
+{"voice":"es-ES-AlvaroNeural","rate":"+0%","gap":0.4,"lead":0.15,"tail":1.5,"music_seed":2,"band":165,"particle_rgb":[255,225,170],
+"cards":[
+{"say":"¿Tu cerebro está frito de tanto escrol?","show":"¿Tu cerebro está frito de tanto scroll?","key":["frito"],"bg":"bg_phone.png"},
+{"say":"Esto se llama bréin stákin, y está arrasando en TikTok.","show":"Esto se llama brain stacking, y está arrasando en TikTok.","key":["brain","stacking"],"bg":"bg_phone.png"},
+{"say":"La idea: apilar varias actividades sin pantalla, una detrás de otra.","key":["sin","pantalla"],"bg":"bg_books.png"},
+{"say":"Diez minutos leyendo.","key":["leyendo"],"bg":"bg_books.png"},
+{"say":"Un puzle.","key":["puzle"],"bg":"bg_notebook.png"},
+{"say":"Escribir a mano.","key":["mano"],"bg":"bg_notebook.png"},
+{"say":"Dibujar, sin prisa.","key":["dibujar"],"bg":"bg_notebook.png"},
+{"say":"¿Funciona? Leer y hacer puzles sí entrena tu mente.","key":["entrena"],"bg":"bg_books.png"},
+{"say":"Pero la magia no está en el nombre: está en soltar tu móvil.","key":["soltar","tu","móvil"],"bg":"bg_night.png"},
+{"say":"Pruébalo esta noche y cuéntame qué tal.","key":["esta","noche"],"bg":"bg_night.png"},
+{"say":"Guárdalo para no olvidarlo.","key":["guárdalo"],"bg":"bg_night.png"}]}
