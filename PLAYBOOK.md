@@ -1,5 +1,10 @@
 # Playbook del vídeo viral diario (lo sigue la tarea programada)
 
+## Cada día se hacen DOS vídeos
+- **TikTok (cuenta OUTFIT INSPO, nicho moda/belleza):** formato *listicle con presentadora ilustrada*, como `reels/2026-11-24-tendencias-moda-tiktok/` (referencia del usuario: fondo beige con grano, `// paso N · ...`, subtítulo karaoke arriba con palabra clave en cursiva roja, titular Anton grande con número en caja negra, tarjetas tipo UI animadas, chica ilustrada abajo a la derecha señalando). Tema: lo más viral/tendencia de ESE momento en **maquillaje y moda** (nuevo cada día; ver `temas_usados.md` sección TikTok). Voz es-ES-ElviraNeural. 35-60 s. Render: `python3 pipeline/make_listicle.py spec.json out` (tipos de tarjeta: chips, compare, checklist, swatches, jacket, comments; se pueden añadir tipos nuevos en el script). Usar `subs` para palabras inglesas escritas fonéticamente en `say`. Emojis NO en las tarjetas (la fuente no los tiene).
+- **Instagram y YouTube:** tema viral general (sin cara), formato de `pipeline/make_video.py` (ver abajo).
+
+
 Todo en español. Sin gastar dinero ni créditos de pago (nada de Runway, Canva, Picsart, vidIQ, TinyFish de pago, etc.). Si algo falla, buscar otra vía gratis y seguir.
 
 ## 1. Tema
