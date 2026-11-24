@@ -11,7 +11,7 @@ Todo en español. Sin gastar dinero ni créditos de pago (nada de Runway, Canva,
 ## 2. Vídeo
 - Carpeta `reels/AAAA-MM-DD-slug/`. Escribir `bgs.py` con 3-4 fondos ilustrados 1200x2134 acordes al tema (ver ejemplos en `reels/2026-11-24-brain-stacking/bgs.py`). Dejar la zona central (y≈35-50%) sin detalles claros para que el texto se lea.
 - Escribir `spec.json` (ver formato en `pipeline/make_video.py` y el ejemplo de brain stacking): 8-12 tarjetas, 20-40 s. Tarjeta 1 = gancho fuerte (pregunta o dato chocante en <2 s). Final con CTA (guárdalo / comenta / compártelo). Palabras en inglés: escribirlas fonéticamente en "say" y bien en "show". `music_seed` distinto cada día (día del año % 4 o similar). `band` 150-170 si hay fondos claros.
-- `pip install edge-tts` si falta. Render: `python3 pipeline/make_video.py spec.json out` (usa el proxy http://127.0.0.1:41863; el host speech.platform.bing.com está permitido en el entorno "videos-ia"). Si edge-tts falla, NO usar voz robótica: reintentar y, si sigue fallando, informar en el resumen.
+- `pip install edge-tts` si falta. Render: `python3 pipeline/make_video.py spec.json out` (usa el proxy de HTTPS_PROXY; el host speech.platform.bing.com está permitido en el entorno "videos-ia"). Si edge-tts falla, NO usar voz robótica: reintentar y, si sigue fallando, informar en el resumen.
 - Revisar `out/check_sheet.png` (leer la imagen): texto legible, cajas bien, sin cortes. Corregir y re-renderizar si hace falta. Comprobar que voz ≈ -15 LUFS y música ≈ -33 LUFS (lo imprime el script).
 - Copiar `out/final.mp4` a `reel_<slug>.mp4`; portada `cover.jpg` (fotograma ~1.5 s). No subir a git la carpeta out/ (sí spec, bgs, mp4 final).
 

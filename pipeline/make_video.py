@@ -8,7 +8,7 @@ import numpy as np, edge_tts
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 HERE=os.path.dirname(os.path.abspath(__file__))
 W,H,FPS=1080,1920,30
-PROXY=os.environ.get("TTS_PROXY","http://127.0.0.1:41863")
+PROXY=os.environ.get("TTS_PROXY") or os.environ.get("HTTPS_PROXY") or os.environ.get("https_proxy")
 spec=json.load(open(sys.argv[1])); OUT=sys.argv[2]; os.makedirs(OUT,exist_ok=True)
 def sh(*a): subprocess.run(a,check=True)
 def dur(f): return float(subprocess.check_output(["ffprobe","-v","error","-show_entries","format=duration","-of","csv=p=0",f]))
