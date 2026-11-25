@@ -1,0 +1,14 @@
+{
+  "series": "DATOS QUE NO SABÍAS",
+  "accent": "#FFD400",
+  "seed": 7,
+  "slides": [
+    {"text": "Este animal sobrevivió al *vacío del espacio*... y mide apenas *1 milímetro*", "image": "img1.jpg", "dur": 3.8},
+    {"text": "Se llama *tardígrado*, o \"oso de agua\"", "image": "img1.jpg", "dur": 3.0},
+    {"text": "En 2007 la *ESA* mandó unos *3.000* al espacio en la misión Foton-M3", "image": "img2.jpg", "dur": 3.8},
+    {"text": "Viajaron *secos*, en un estado llamado *\"tun\"*: sin metabolismo", "image": "img2.jpg", "dur": 3.5},
+    {"text": "El vacío no les hizo nada. Lo que les costó fue la *radiación UV* del Sol", "image": "img3.jpg", "dur": 3.8},
+    {"text": "Y algunos supervivientes pusieron *huevos* que eclosionaron", "image": "img1.jpg", "dur": 3.3}
+  ],
+  "cta": "Sígueme: un *dato nuevo* cada día"
+}

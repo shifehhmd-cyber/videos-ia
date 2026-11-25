@@ -73,13 +73,13 @@ def parse_words(text):
     """Devuelve lista de (palabra, resaltada)."""
     out, hl = [], False
     for tok in text.split():
-        start = tok.startswith("*")
-        end = tok.endswith("*") and len(tok) > 1
-        if start:
+        # el asterisco de apertura va al inicio de la palabra; el de cierre puede
+        # ir seguido de puntuación ("*espacio*..." o "*tun*:")
+        if tok.startswith("*") or tok.lstrip("\"'¿¡(").startswith("*"):
             hl = True
-        clean = tok.strip("*")
-        out.append((clean, hl))
-        if end or (start and tok.count("*") == 2):
+        closes = "*" in tok.lstrip("\"'¿¡(")[1:]
+        out.append((tok.replace("*", ""), hl))
+        if closes:
             hl = False
     return out
 
