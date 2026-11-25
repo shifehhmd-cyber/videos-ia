@@ -174,6 +174,17 @@ def card(s,t):
             yy=y0+120+k*120+(1-p)*20; d.ellipse([x0+40,yy,x0+110,yy+70],fill=[(240,180,160),(170,200,230),(200,220,170),(230,200,120)][k%4]+(int(255*p),))
             d.rounded_rectangle([x0+130,yy,W-130,yy+80],26,fill=(244,240,236,int(255*p))); d.text((x0+160,yy+20),c["items"][k],font=fCardS,fill=INK+(int(255*p),))
         d.rounded_rectangle([x0+40,y0+500,W-130,y0+570],35,outline=(210,205,200),width=3); d.text((x0+80,y0+514),"Añade un comentario…",font=fCardS,fill=GRAY)
+    elif typ=="progress":
+        x0,y0=80,Y; card_box(lay,[x0,y0,W-80,y0+560]); fr,to=c.get("from",0),c.get("to",100)
+        p=ease((t-s["t0"]-0.5)/max(0.6,(s["t1"]-s["t0"])*0.6)); v=fr+(to-fr)*p
+        fP=F("Anton.ttf",150); txt=f"{int(round(v))}%"; d.text((x0+40,y0+40),txt,font=fP,fill=RED if v>=100 else INK)
+        d.text((x0+60+fP.getlength(txt),y0+120),c.get("head","cargando..."),font=fCard,fill=GRAY)
+        d.rounded_rectangle([x0+40,y0+240,W-120,y0+290],25,fill=(236,231,224)); d.rounded_rectangle([x0+40,y0+240,x0+40+(W-160-x0)*v/100,y0+290],25,fill=RED)
+        items=c.get("items",[]); n=len(items)
+        for k,txt2 in enumerate(items):
+            th=(k+1)*100/n; ok=v>=th-0.01; cx=x0+40+(W-160-x0)*(k+0.5)/n
+            check(d,int(cx),y0+380,ok,26) if ok else d.ellipse([cx-26,y0+354,cx+26,y0+406],outline=(200,195,190),width=4)
+            d.text((cx-fCardS.getlength(txt2)/2,y0+430),txt2,font=fCardS,fill=INK if ok else GRAY)
     # entrada de la tarjeta
     p=ease((t-s["t0"]-0.15)/0.4); out=Image.new("RGBA",(W,H)); out.alpha_composite(lay,(0,int((1-p)*80)))
     if p<1: out.putalpha(Image.eval(out.getchannel("A"),lambda v:int(v*p)))

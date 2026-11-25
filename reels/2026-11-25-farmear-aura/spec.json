@@ -1,0 +1,11 @@
+{"voice":"es-ES-AlvaroNeural","rate":"+4%","gap":0.35,"lead":0.15,"tail":1.5,"music_seed":2,"band":110,"particle_rgb":[220,190,255],
+"cards":[
+{"say":"Si ves a gente posando muy seria en la calle, están farmeando aura.","key":["farmeando","aura"],"bg":"bg_aura.png"},
+{"say":"Es la expresión más viral entre los jóvenes, y ya ha llegado a España.","key":["viral"],"bg":"bg_aura.png"},
+{"say":"Viene del inglés: óra fárming.","show":"Viene del inglés: aura farming.","key":["aura","farming"],"bg":"bg_xp.png"},
+{"say":"Farmear es acumular puntos, como en un videojuego.","key":["puntos"],"bg":"bg_xp.png"},
+{"say":"Y el aura es tu carisma: tu presencia.","key":["carisma"],"bg":"bg_xp.png"},
+{"say":"Ahora hay batallas de aura: dos personas posan, y el público decide quién gana.","key":["batallas"],"bg":"bg_battle.png"},
+{"say":"Ojo: no tiene nada de esotérico. Es puro carisma, y mucho postureo.","key":["postureo"],"bg":"bg_battle.png"},
+{"say":"¿Y tú, cuánta aura tienes? Te leo en comentarios.","key":["aura"],"bg":"bg_street.png"},
+{"say":"Compártelo con el amigo que siempre está farmeando aura.","key":["compártelo"],"bg":"bg_street.png"}]}
