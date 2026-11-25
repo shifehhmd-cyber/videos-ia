@@ -31,7 +31,7 @@ async def tts():
     text = " ".join(w[0] for w in WORDS)
     for _ in range(4):
         try:
-            c = edge_tts.Communicate(text, "es-ES-AlvaroNeural", rate="+6%", boundary="WordBoundary", proxy=PROXY); wb = []
+            c = edge_tts.Communicate(text, "es-ES-AlvaroNeural", rate="+16%", pitch="+28Hz", boundary="WordBoundary", proxy=PROXY); wb = []
             with open(f"{OUT}/voz.mp3", "wb") as f:
                 async for ch in c.stream():
                     if ch["type"] == "audio": f.write(ch["data"])
