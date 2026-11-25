@@ -74,6 +74,14 @@ Los `.mp4` / `.png` / `.jpg` no se suben a git (ver `.gitignore`).
    - TikTok: pie corto + **máx. 5 hashtags**.
 4. Verificar con `mcp__PostOnce__get_post` que quedan en `scheduled`.
 
+### Si PostOnce rechaza la publicación (prueba gratuita agotada u otro bloqueo)
+
+Desde el 25-11 la prueba gratuita de PostOnce (10 posts) está agotada. Antes de crear posts, comprobar con
+`mcp__PostOnce__list_posts` si los últimos posts quedaron en `paused` con el error de "free trial".
+Si sigue bloqueado: no crear posts nuevos; renderizar igualmente el vídeo y enviárselo al usuario con
+`SendUserFile` junto con los pies de texto listos para copiar (Instagram, TikTok, YouTube) y las horas
+recomendadas, para que lo suba a mano. Anotarlo en el log.
+
 ## Paso 6 — Registro
 
 Añadir `log/AAAA-MM-DD.md` con: tema, fuentes, IDs de los posts, horas, créditos Runway restantes
