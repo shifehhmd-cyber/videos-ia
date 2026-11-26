@@ -1,0 +1,10 @@
+{"voice":"es-ES-AlvaroNeural","rate":"+4%","gap":0.35,"lead":0.15,"tail":1.5,"music_seed":3,"band":110,"particle_rgb":[200,220,255],
+"cards":[
+{"say":"El domingo votamos, y tu móvil se está llenando de bulos.","key":["bulos"],"bg":"bg_phone.png"},
+{"say":"Así los detectas en diez segundos.","show":"Así los detectas en 10 segundos.","key":["10","segundos"],"bg":"bg_phone.png"},
+{"say":"Uno: si te piden reenviarlo urgentemente, sospecha.","key":["sospecha"],"bg":"bg_phone.png"},
+{"say":"Dos: busca la fuente. Si no hay medio ni enlace, no te lo creas.","key":["fuente"],"bg":"bg_lupa.png"},
+{"say":"Tres: mira la fecha. Muchos bulos son noticias viejas recicladas.","key":["fecha"],"bg":"bg_lupa.png"},
+{"say":"Cuatro: búscalo en un verificador, como Maldita o Newtral.","key":["verificador"],"bg":"bg_check.png"},
+{"say":"Y si algo te indigna muchísimo, para un segundo: está hecho para eso.","key":["indigna"],"bg":"bg_check.png"},
+{"say":"Vota informado, y compártelo con el grupo de la familia.","key":["informado"],"bg":"bg_urna.png"}]}
