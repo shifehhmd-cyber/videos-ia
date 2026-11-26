@@ -1,0 +1,22 @@
+{"voice":"es-ES-ElviraNeural","rate":"+5%","gap":0.3,"tail":1.0,"music_seed":3,
+ "subs":{"suit":"Sweet","cáramel":"Caramel","mólten":"Molten"},
+ "sections":[
+ {"tag":"01 · el gancho","sub":"perfumes árabes","title":["HUELEN A","POSTRE"],
+  "say":"Estos perfumes árabes huelen tan bien que te los comerías. Y uno cuesta menos de diez euros.",
+  "key":["comerías","diez"],"card":{"type":"chips","items":["#perfumesarabes","#gourmand","#perfumetok","#regalosnavidad","#perfumes"]}},
+ {"tag":"nº1 · caramelo","sub":"el más barato","title":["SWEET","CARAMEL"],"num":1,
+  "say":"Uno: Suit Cáramel, de Grandeur. Caramelo, fresa y vainilla, por nueve euros con cincuenta y cinco. Y es tan suave que vale hasta para niños.",
+  "key":["nueve","niños"],"card":{"type":"product","img":"img/tubbees.png","name":"Tubbees\nSweet Caramel","price":"9,55 €","notes":["Caramelo","Fresa","Vainilla"]}},
+ {"tag":"nº2 · chocolate","sub":"un postre en frasco","title":["MOLTEN","CARAMEL"],"num":2,
+  "say":"Dos: Mólten Cáramel, de Paris Corner. Chocolate blanco, caramelo fundido y praliné. Un postre en frasco.",
+  "key":["chocolate","postre"],"card":{"type":"product","img":"img/molten.png","name":"Paris Corner\nMolten Caramel","price":"36,02 €","notes":["Chocolate blanco","Caramelo","Praliné"]}},
+ {"tag":"nº3 · refresco","sub":"el más original","title":["SODA","POP"],"num":3,
+  "say":"Tres: Soda Pop, de Armaf. Huele a refresco helado: cítricos burbujeantes y un fondo de vainilla.",
+  "key":["refresco","vainilla"],"stamp":"EL MÁS ORIGINAL","card":{"type":"product","img":"img/sodapop.png","name":"Armaf\nSoda Pop","price":"43 €","notes":["Cítricos","Frutas","Vainilla"]}},
+ {"tag":"truco · regalo","sub":"navidad","title":["REGALO","SEGURO"],
+  "say":"Si buscas un regalo de Navidad que no falla, cualquiera de estos tres acierta.",
+  "key":["regalo","acierta"],"card":{"type":"checklist","head":"Regalo perfecto","items":[["Para ella",true],["Para él",true],["Para peques",true]]}},
+ {"tag":"final · tu turno","sub":"comenta","title":["¿CUÁL","TE PIDES?"],
+  "say":"¿Cuál te pedirías? Los tienes en el enlace de mi perfil.",
+  "key":["cuál","enlace"],"card":{"type":"comments","head":"Comentarios","items":["Sweet Caramel ya","El de chocolate","Soda Pop para mí"]}}
+ ]}

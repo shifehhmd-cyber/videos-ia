@@ -9,6 +9,12 @@
 | 2026-11-25 | Makeup loading bar (maquillaje cargando 0-100%) | 20:00 | reels/2026-11-25-makeup-loading-tiktok |
 | 2026-11-26 | Maquillaje Navidad 2026: ahumados, labios vino, piel luminosa, duocromo | NO publicado (PostOnce sin cupo) | reels/2026-11-26-maquillaje-navidad-tiktok |
 
+## Promoción de productos de la tienda
+
+| Fecha | Tema | Productos | Estado | Carpeta |
+|---|---|---|---|---|
+| 2026-11-26 | Perfumes árabes que huelen a postre | Tubbees Sweet Caramel, Molten Caramel, Armaf Soda Pop | enviado al usuario para subir a mano | reels/2026-11-26-perfumes-postre-tiktok |
+
 ## Instagram + YouTube (viral general)
 
 

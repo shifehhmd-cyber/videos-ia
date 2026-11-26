@@ -1,6 +1,16 @@
 # Playbook del vídeo viral diario (lo sigue la tarea programada)
 
-## Cada día se hacen DOS vídeos
+## PRIORIDAD (desde 26-nov): vender en la tienda Shopify "Todo lo que buscas"
+- Los vídeos deben PROMOCIONAR PRODUCTOS de la tienda (sobre todo perfumes árabes), conectados con una tendencia del día (regalos de Navidad, gourmand, dupes, "huele a…", etc.). Ejemplo: `reels/2026-11-26-perfumes-postre-tiktok/` (tarjeta `product` con foto real).
+- Datos reales de productos: Shopify `graphql_query` (título, precio, notas de la descripción, featuredMedia). Fotos desde cdn.shopify.com (permitido en el entorno) → carpeta `img/` del reel. COMPRUEBA la foto (léela): algunas fichas tienen la imagen equivocada (Piña Colada muestra atomizadores; Mazaaji parece "Ameerat Al Arab"); no uses productos con foto errónea.
+- No prometas nada que la ficha no diga (duración, envíos, stock). CTA: "los tienes en el enlace de mi perfil".
+- No modifiques la tienda (precios, fichas) sin permiso del usuario.
+- Mismo vídeo de producto para TikTok + Instagram + YouTube (formato listicle con la chica). Opcional: un segundo vídeo de tema viral general.
+
+## PUBLICACIÓN
+- PostOnce agotó la prueba gratis (10 posts) el 26-nov. Intenta create_post; si da 403 publishing_access_suspended, NO pagues: escribe `TEXTOS-PARA-PUBLICAR.md` en la carpeta del reel (texto por red + hora recomendada + recordar etiqueta IA) y envía al usuario el mp4 y ese archivo con SendUserFile.
+
+## (Histórico) Cada día se hacen DOS vídeos
 - **TikTok (cuenta OUTFIT INSPO, nicho moda/belleza):** formato *listicle con presentadora ilustrada*, como `reels/2026-11-24-tendencias-moda-tiktok/` (referencia del usuario: fondo beige con grano, `// paso N · ...`, subtítulo karaoke arriba con palabra clave en cursiva roja, titular Anton grande con número en caja negra, tarjetas tipo UI animadas, chica ilustrada abajo a la derecha señalando). Tema: lo más viral/tendencia de ESE momento en **maquillaje y moda** (nuevo cada día; ver `temas_usados.md` sección TikTok). Voz es-ES-ElviraNeural. 35-60 s. Render: `python3 pipeline/make_listicle.py spec.json out` (tipos de tarjeta: chips, compare, checklist, swatches, jacket, comments; se pueden añadir tipos nuevos en el script). Usar `subs` para palabras inglesas escritas fonéticamente en `say`. Emojis NO en las tarjetas (la fuente no los tiene).
 - **Instagram y YouTube:** tema viral general (sin cara), formato de `pipeline/make_video.py` (ver abajo).
 

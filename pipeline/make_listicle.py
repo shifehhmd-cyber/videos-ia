@@ -185,6 +185,18 @@ def card(s,t):
             th=(k+1)*100/n; ok=v>=th-0.01; cx=x0+40+(W-160-x0)*(k+0.5)/n
             check(d,int(cx),y0+380,ok,26) if ok else d.ellipse([cx-26,y0+354,cx+26,y0+406],outline=(200,195,190),width=4)
             d.text((cx-fCardS.getlength(txt2)/2,y0+430),txt2,font=fCardS,fill=INK if ok else GRAY)
+    elif typ=="product":
+        x0,y0=80,Y; card_box(lay,[x0,y0,W-80,y0+600])
+        if "_img" not in c:
+            im=Image.open(c["img"]).convert("RGBA"); im.thumbnail((400,520),Image.LANCZOS); c["_img"]=im
+        im=c["_img"]; lay.alpha_composite(im,(x0+30+(400-im.width)//2,y0+40+(520-im.height)//2)); d=ImageDraw.Draw(lay)
+        tx=x0+460; ty=y0+50
+        for line in c["name"].split("\n"): d.text((tx,ty),line,font=fCard,fill=INK); ty+=52
+        d.text((tx,ty+10),c["price"],font=F("Anton.ttf",110),fill=RED)
+        for k,p in enumerate(items_visible(s,t,len(c.get("notes",[])))):
+            if p<=0: continue
+            txt=c["notes"][k]; yy=ty+160+k*84+(1-p)*20; w=fCardS.getlength(txt)+60
+            d.rounded_rectangle([tx,yy,tx+w,yy+66],33,fill=(244,236,226,int(255*p))); d.text((tx+30,yy+14),txt,font=fCardS,fill=INK+(int(255*p),))
     # entrada de la tarjeta
     p=ease((t-s["t0"]-0.15)/0.4); out=Image.new("RGBA",(W,H)); out.alpha_composite(lay,(0,int((1-p)*80)))
     if p<1: out.putalpha(Image.eval(out.getchannel("A"),lambda v:int(v*p)))
