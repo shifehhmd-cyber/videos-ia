@@ -1,0 +1,13 @@
+{
+  "series": "DATOS QUE NO SABÍAS",
+  "accent": "#FFB000",
+  "seed": 11,
+  "slides": [
+    {"text": "En Venus un *día* dura más que un *año*", "image": "img1.jpg", "dur": 3.2},
+    {"text": "Girar una vez sobre sí mismo le lleva unos *243 días* terrestres", "image": "img3.jpg", "dur": 3.6},
+    {"text": "Pero dar la vuelta al Sol solo le lleva *225*", "image": "img3.jpg", "dur": 3.2},
+    {"text": "Además gira *al revés* que casi todos los planetas", "image": "img1.jpg", "dur": 3.2},
+    {"text": "Por eso allí el Sol sale por el *oeste*... y solo cada *117 días*", "image": "img2.jpg", "dur": 3.8}
+  ],
+  "cta": "Sígueme: un *dato nuevo* cada día"
+}
