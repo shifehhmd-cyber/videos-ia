@@ -4,6 +4,8 @@
 - Los vídeos deben PROMOCIONAR PRODUCTOS de la tienda (sobre todo perfumes árabes), conectados con una tendencia del día (regalos de Navidad, gourmand, dupes, "huele a…", etc.). Ejemplo: `reels/2026-11-26-perfumes-postre-tiktok/` (tarjeta `product` con foto real).
 - Datos reales de productos: Shopify `graphql_query` (título, precio, notas de la descripción, featuredMedia). Fotos desde cdn.shopify.com (permitido en el entorno) → carpeta `img/` del reel. COMPRUEBA la foto (léela): algunas fichas tienen la imagen equivocada (Piña Colada muestra atomizadores; Mazaaji parece "Ameerat Al Arab"); no uses productos con foto errónea.
 - No prometas nada que la ficha no diga (duración, envíos, stock). CTA: "los tienes en el enlace de mi perfil".
+- 27-nov: el conector Shopify apuntaba a OTRA tienda ("My Store", vb10-ybh2bg-tt, trial, 8 prendas sin fotos). Comprueba get-shop-info: si no es "Todo lo que buscas" (f8u3wg-s0), no cambies de tienda; usa los datos ya conocidos de perfumes (ver reels anteriores) y avisa al usuario.
+- Fotos erróneas conocidas: Piña Colada y Noir D'Arabie (salen atomizadores), Mazaaji (parece Ameerat Al Arab).
 - No modifiques la tienda (precios, fichas) sin permiso del usuario.
 - Mismo vídeo de producto para TikTok + Instagram + YouTube (formato listicle con la chica). Opcional: un segundo vídeo de tema viral general.
 

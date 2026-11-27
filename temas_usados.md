@@ -14,6 +14,7 @@
 | Fecha | Tema | Productos | Estado | Carpeta |
 |---|---|---|---|---|
 | 2026-11-26 | Perfumes árabes que huelen a postre | Tubbees Sweet Caramel, Molten Caramel, Armaf Soda Pop | enviado al usuario para subir a mano | reels/2026-11-26-perfumes-postre-tiktok |
+| 2026-11-27 | Black Friday: regalo para él (3 perfumes árabes) | Rayhaan Vantage 44, Hawas Gold Digger 58, Bujairami Power Duo 105 | enviado al usuario (PostOnce 403) | reels/2026-11-27-regalo-perfume-el |
 
 ## Instagram + YouTube (viral general)
 

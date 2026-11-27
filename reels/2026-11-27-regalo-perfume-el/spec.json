@@ -1,0 +1,19 @@
+{"voice":"es-ES-ElviraNeural","rate":"+5%","gap":0.3,"tail":1.0,"music_seed":0,
+ "subs":{"raijan":"Rayhaan","vantach":"Vantage","jáwas":"Hawas","díguer":"Digger","páuer":"Power","dúo":"Duo","bujaírami":"Bujairami"},
+ "sections":[
+ {"tag":"01 · el gancho","sub":"black friday","title":["REGALO","PARA ÉL"],
+  "say":"Si este Black Friday estás pensando en el regalo de Navidad para él, apunta estos tres perfumes árabes.",
+  "key":["regalo","tres"],"card":{"type":"chips","items":["#regaloparaél","#perfumesarabes","#blackfriday","#perfumehombre","#navidad"]}},
+ {"tag":"nº1 · elegante","sub":"sin pasarse","title":["RAYHAAN","VANTAGE"],"num":1,
+  "say":"Uno: Raijan Vantach. Cardamomo, incienso y cedro. Se nota al entrar en una sala, sin agobiar. Cuarenta y cuatro euros.",
+  "key":["incienso","cuarenta"],"card":{"type":"product","img":"img/vantage.jpg","name":"Rayhaan\nVantage","price":"44 €","notes":["Cardamomo","Incienso","Cedro"]}},
+ {"tag":"nº2 · adictivo","sub":"de rasasi","title":["HAWAS","GOLD DIGGER"],"num":2,
+  "say":"Dos: Jáwas Gold Díguer, de Rasasi. Pera, canela y vainilla. Fresco al principio, y muy adictivo al final. Cincuenta y ocho euros.",
+  "key":["adictivo","cincuenta"],"card":{"type":"product","img":"img/hawas.jpg","name":"Rasasi Hawas\nGold Digger","price":"58 €","notes":["Pera","Canela","Vainilla"]}},
+ {"tag":"nº3 · dos en uno","sub":"set de regalo","title":["POWER","DUO"],"num":3,
+  "say":"Tres: el Páuer Dúo de Bujaírami. Dos perfumes en un set, Emperor e Inferno, por ciento cinco euros.",
+  "key":["dos","ciento"],"stamp":"DOBLE REGALO","card":{"type":"product","img":"img/bujairami.jpg","name":"Bujairami\nPower Duo","price":"105 €","notes":["Emperor","Inferno","Set regalo"]}},
+ {"tag":"final · tu turno","sub":"comenta","title":["¿CUÁL","LE REGALAS?"],
+  "say":"¿Cuál le regalarías? Los tienes en el enlace de mi perfil.",
+  "key":["cuál","enlace"],"card":{"type":"comments","head":"Comentarios","items":["El Hawas, seguro","Vantage para mi chico","El Duo, sin duda"]}}
+ ]}
