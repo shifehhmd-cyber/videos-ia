@@ -1,0 +1,14 @@
+{
+  "series": "PSICOLOGÍA",
+  "accent": "#7CF3FF",
+  "seed": 5,
+  "slides": [
+    {"text": "¿Por qué no te quitas de la cabeza lo que dejaste *a medias*?", "image": "img1.jpg", "dur": 3.6},
+    {"text": "Tiene nombre: *efecto Zeigarnik*", "image": "img1.jpg", "dur": 2.8},
+    {"text": "Se cuenta que empezó con un camarero que recordaba los pedidos *sin pagar*... y olvidaba los ya pagados", "image": "img2.jpg", "dur": 4.4},
+    {"text": "En 1927, Bluma Zeigarnik vio que muchas tareas *interrumpidas* se recordaban mejor que las terminadas", "image": "img2.jpg", "dur": 4.4},
+    {"text": "El truco: apuntar un *plan concreto* para acabarla ayuda a soltarla", "image": "img3.jpg", "dur": 3.6},
+    {"text": "Ojo: no pasa *siempre*. Estudios posteriores lo matizan", "image": "img3.jpg", "dur": 3.2}
+  ],
+  "cta": "Sígueme: un *dato nuevo* cada día"
+}
