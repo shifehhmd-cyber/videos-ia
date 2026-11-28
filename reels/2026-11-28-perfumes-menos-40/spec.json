@@ -1,0 +1,19 @@
+{"voice":"es-ES-ElviraNeural","rate":"+5%","gap":0.3,"tail":1.0,"music_seed":1,
+ "subs":{"suit":"Sweet","cáramel":"Caramel","mólten":"Molten"},
+ "sections":[
+ {"tag":"01 · el gancho","sub":"perfumes árabes","title":["MENOS DE","40 €"],
+  "say":"Perfumes árabes que huelen a caro, y ninguno pasa de cuarenta euros. Guárdate este vídeo.",
+  "key":["caro","cuarenta"],"card":{"type":"chips","items":["#perfumesarabes","#perfumebarato","#regalosnavidad","#perfumetok","#armaf"]}},
+ {"tag":"nº1 · para salir","sub":"alegre y sensual","title":["ARMAF","SALSA"],"num":1,
+  "say":"Uno: Salsa, de Armaf. Mandarina, bergamota, jazmín y rosa. Alegre, sensual y con mucha energía. Treinta y ocho euros.",
+  "key":["energía","treinta"],"card":{"type":"product","img":"img/salsa.jpg","name":"Armaf\nSalsa","price":"38 €","notes":["Mandarina","Jazmín","Rosa"]}},
+ {"tag":"nº2 · el goloso","sub":"para el invierno","title":["MOLTEN","CARAMEL"],"num":2,
+  "say":"Dos: Mólten Cáramel. Chocolate blanco, caramelo fundido y praliné. Treinta y seis euros.",
+  "key":["chocolate","treinta"],"card":{"type":"product","img":"img/molten.png","name":"Paris Corner\nMolten Caramel","price":"36,02 €","notes":["Chocolate blanco","Caramelo","Praliné"]}},
+ {"tag":"nº3 · el chollo","sub":"menos de 10 €","title":["SWEET","CARAMEL"],"num":3,
+  "say":"Y tres, el chollo: Suit Cáramel. Caramelo, fresa y vainilla, por nueve euros con cincuenta y cinco.",
+  "key":["chollo","nueve"],"stamp":"9,55 €","card":{"type":"product","img":"img/tubbees.png","name":"Tubbees\nSweet Caramel","price":"9,55 €","notes":["Caramelo","Fresa","Vainilla"]}},
+ {"tag":"final · tu turno","sub":"comenta","title":["¿CON CUÁL","EMPIEZAS?"],
+  "say":"¿Con cuál empezarías? Los tienes en el enlace de mi perfil.",
+  "key":["cuál","enlace"],"card":{"type":"comments","head":"Comentarios","items":["Salsa para salir","Molten para el invierno","Sweet Caramel ya"]}}
+ ]}
