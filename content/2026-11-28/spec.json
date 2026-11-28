@@ -1,0 +1,13 @@
+{
+  "series": "HISTORIA",
+  "accent": "#FF8A3D",
+  "seed": 9,
+  "slides": [
+    {"text": "La guerra más corta de la historia duró menos que un *partido de fútbol*", "image": "img2.jpg", "dur": 3.6},
+    {"text": "Fue la *guerra anglo-zanzibariana*, el 27 de agosto de *1896*", "image": "img1.jpg", "dur": 3.4},
+    {"text": "Murió el sultán de Zanzíbar y su sucesor no era el que quería *Gran Bretaña*", "image": "img3.jpg", "dur": 3.8},
+    {"text": "Los barcos británicos bombardearon el palacio y la bandera cayó en unos *38 minutos*", "image": "img1.jpg", "dur": 4.0},
+    {"text": "Zanzíbar sufrió unas *500 bajas*. Los británicos, *un solo herido*", "image": "img3.jpg", "dur": 3.6}
+  ],
+  "cta": "Sígueme: un *dato nuevo* cada día"
+}
